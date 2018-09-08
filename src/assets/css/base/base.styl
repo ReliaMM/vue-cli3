@@ -1,0 +1,110 @@
+@import './varibles.styl'
+
+*
+  box-sizing border-box
+
+ul
+  list-style none
+
+html
+body
+ul
+dl
+dt
+dd
+p
+  margin 0
+  padding 0
+
+img
+  vertical-align middle
+  border 0 none
+
+html
+body
+  width 100%
+  height 100%
+  /*background: radial-gradient(rgba(254, 254, 254, 0.5) 10%, rgba(0, 0, 0, 0) 5%) 0 0, radial-gradient(rgba(254, 254, 254, 0.5) 10%, rgba(0, 0, 0, 0) 5%) 0.5em 0.5em;*/
+  background-color font-color
+  /*background-size: 1em 1em;*/
+  font-family 'pingfang'
+  font-size 16px
+  color #666
+  -webkit-touch-callout none !important
+a
+  color #409eff
+  text-decoration none
+  &:hover
+    color #086bce
+
+i
+em
+  font-style normal
+
+.clearfix:before
+.clearfix:after
+  content ''
+  display table
+.clearfix:after
+  clear: both
+
+.pull-left
+  float left !important
+.pull-right
+  float right !important
+
+.text-ellipsis
+  display inline-block
+  width 100%
+  white-space nowrap
+  overflow hidden
+  text-overflow ellipsis
+.text-center
+  text-align center
+.color-red
+  color #f00
+
+.data-empty
+  span
+    margin-left 12px
+    vertical-align middle
+
+.image-select
+  .el-radio
+  .el-radio__label
+    height 100%
+  .el-radio__input
+    display none
+  .el-radio__label
+    display inline-block
+    padding 0
+
+#app
+  .el-scrollbar
+    min-height 100%
+    height 100%
+    &>.el-scrollbar__wrap
+      overflow-x hidden
+      &>.el-scrollbar__view
+        min-height 100%
+  .el-aside
+    overflow-x hidden
+  .el-menu
+    border-right 0 none
+  .el-scrollbar__bar
+    right 0
+
+@media screen and (max-width $max-device-width) {
+  .container {
+    padding-top $nav-height
+    padding-left 20px
+  }
+}
+[class*="ty-icon-"],
+[class^="ty-icon-"] {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "folder": "template/index",
+    "urlsGet": [
+      "/datastone/timeOptions",
+      "/datastone/zhenduanTheory"
+    ]
+  }
+]

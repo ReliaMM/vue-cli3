@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "rows": {
+    "brand_code": "10",
+    "id": 5532,
+    "lose_account": "89",
+    "loyal_account": "260",
+    "month": "2017-12",
+    "new_first": "28",
+    "new_not_first": "100",
+    "platform_dealer_code": "10023",
+    "zhenduan": "0.100515462",
+    "zhenduan_desc": "121122",
+    "zhenduan_type": "22"
+  },
+  "success": true
+}
